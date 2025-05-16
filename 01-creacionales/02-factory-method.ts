@@ -69,7 +69,7 @@ class BeanRestaurant extends Restaurant {
 
 }
 
-function main() {
+function mainD() {
   let restaurant: Restaurant;
 
   const burgerType = prompt(
@@ -96,4 +96,4 @@ function main() {
   restaurant.orderHamburger();
 }
 
-main();
+mainD();
